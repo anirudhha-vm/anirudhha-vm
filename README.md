@@ -1,3 +1,9 @@
+<a href="https://www.linkedin.com/in/anirudhha-vm-921886361/">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c1c1c&height=180&section=header&text=Anirudhha%20VM&fontSize=60&fontColor=ffffff&desc=AI%20%26%20Robotics%20Engineering&descSize=22&descColor=bbbbbb" width="100%" alt="Anirudhha VM - AI & Robotics Engineering" />
+</a>
+
+<br />
+
 # Anirudhha VM
 
 **AI & Robotics Engineering Student** building intelligent robotic systems through simulation, machine learning, and real-world engineering.
@@ -12,8 +18,8 @@ AI → Simulation → Control → Robotics → Real-world deployment
 
 ### Current Focus
 
-- Developing **robot learning and sim-to-real pipelines** using NVIDIA Isaac Lab and quadruped platforms (Unitree Go2)
-- Building **perception-driven manipulation** systems for humanoid robots (Unitree G1)
+- Building **perception-driven manipulation and locomotion** systems for humanoid robots (Unitree G1, R1)
+- Developing **robot learning pipelines** using Reinforcement Learning (RL) and NVIDIA Isaac Lab
 - Working on **industrial automation** with PLCs at Bosch Rexroth Centre
 - Preparing technical research for **ASME international conference** presentation
 
@@ -36,6 +42,10 @@ Simulated a 7-DOF Franka Emika Panda executing a nine-step pick-and-place cycle,
 #### [SoilClassification_ImageProcessing](https://github.com/anirudhha-vm/SoilClassification_ImageProcessing) — Computer Vision
 Image processing pipeline for soil type classification using computer vision techniques.
 `Python` · `OpenCV` · `Image Processing`
+
+#### [math-quest-academy](https://github.com/anirudhha-vm/math-quest-academy) — Eurekathon 3.0 Hackathon Winner (Team Lead)
+Knowledge graph-driven gamified learning platform focused on adaptive learning and concept mastery. Designed role-based teacher and student dashboards, MCQ modules, and an XP progression system. Led team execution and rapid prototyping to win a 24-hour national hackathon.
+`Hackathon Winner` · `Adaptive Learning` · `Dashboard Analytics`
 
 #### [Brahmaguptha](https://github.com/anirudhha-vm/Brahmaguptha) — Brahmagupta Club Platform
 Digital platform for the Brahmagupta mathematics club built with Next.js and Supabase.
