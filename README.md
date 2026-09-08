@@ -1,64 +1,66 @@
-# Anirudhha VM
+## hey, i'm anirudhha 👋🏽
 
-**AI & Robotics Engineering Student** building intelligent robotic systems through simulation, machine learning, and real-world engineering.
+i'm an AI & robotics engineering student who's obsessed with making robots actually *do things* — not just exist in jupyter notebooks.
 
-I work at the intersection of **artificial intelligence** and **physical robotics** — designing perception-driven manipulation pipelines, autonomous navigation stacks, and sim-to-real workflows. My focus is on systems that move from simulation to deployment, not just theory.
+most of my time goes into building perception-driven manipulation systems, autonomous navigation stacks, and figuring out how to get stuff working in simulation before breaking real hardware. i care about the full pipeline:
+
+**idea → sim → control → real robot → repeat until it works**
+
+right now i'm deep into quadruped robotics (unitree go2), robot learning with isaac lab, and industrial automation at bosch rexroth.
+
+i also presented technical research at an ASME international conference — so yeah, i write papers too.
+
+---
+
+#### ⚙ what i've built
+
+**[G1_ArmManipulation](https://github.com/anirudhha-vm/G1_ArmManipulation)** — autonomous pick-and-place on the unitree g1 humanoid  
+closed-loop manipulation stack for a 29-DOF humanoid with dex3-1 hand. rgb-d perception, depth reconstruction, stability-gated pose estimation, 18-state FSM.  
+`python` · `isaac sim` · `ros 2 jazzy` · `pinocchio`  
+⭐ 3 · 🍴 2
+
+**[Warehouse_V1](https://github.com/anirudhha-vm/Warehouse_V1)** — warehouse amr with lidar slam  
+real-time 2D slam for a differential-drive amr. odometry filtering, tf trees, laserscan registration — the boring plumbing that makes navigation actually work.  
+`python` · `isaac sim` · `ros 2` · `slam toolbox`  
+⭐ 2
+
+**[Pick_and_Place](https://github.com/anirudhha-vm/Pick_and_Place)** — franka panda sim  
+7-DOF franka emika panda doing a nine-step pick-and-place cycle. ros 2 ↔ isaac sim bridge via omnigraph action graphs.  
+`python` · `ros 2` · `isaac sim` · `omnigraph`
+
+**[Brahmaguptha](https://github.com/anirudhha-vm/Brahmaguptha)** — club platform  
+built the digital platform for our math club with next.js + supabase. live at [brahmaguptha.vercel.app](https://brahmaguptha.vercel.app)  
+`typescript` · `next.js` · `supabase`
+
+**[SoilClassification_ImageProcessing](https://github.com/anirudhha-vm/SoilClassification_ImageProcessing)** — cv pipeline for soil classification  
+`python` · `opencv`
+
+---
+
+#### 🧰 what i work with
 
 ```
-AI → Simulation → Control → Robotics → Real-world deployment
+languages    python · c++ · bash
+robotics     ros 2 · robot control · manipulation · navigation · quadrupeds
+ai/ml        reinforcement learning · computer vision · deep learning · robot learning
+simulation   nvidia isaac sim · isaac lab · gazebo · sim-to-real
+tools        git · linux · ubuntu · vim · tmux
 ```
 
 ---
 
-### Current Focus
+#### 📡 currently
 
-- Developing **robot learning and sim-to-real pipelines** using NVIDIA Isaac Lab and quadruped platforms (Unitree Go2)
-- Building **perception-driven manipulation** systems for humanoid robots (Unitree G1)
-- Working on **industrial automation** with PLCs at Bosch Rexroth Centre
-- Preparing technical research for **ASME international conference** presentation
-
----
-
-### Technical Work
-
-#### [G1_ArmManipulation](https://github.com/anirudhha-vm/G1_ArmManipulation) — Autonomous Pick-and-Place for Unitree G1 Humanoid
-Closed-loop, perception-driven manipulation stack for the 29-DOF Unitree G1 with Dex3-1 hand. Integrated RGB-D perception with depth reconstruction, stability-gated 3D pose estimation, and an 18-state FSM. Built in NVIDIA Isaac Sim + ROS 2 Jazzy.
-`Python` · `Isaac Sim` · `ROS 2` · `Pinocchio`
-
-#### [Warehouse_V1](https://github.com/anirudhha-vm/Warehouse_V1) — Warehouse AMR with LiDAR SLAM
-Real-time 2D SLAM simulation for a differential-drive warehouse AMR. Engineered odometry filtering, TF tree mapping, and SLAM processing with LaserScan registration.
-`Python` · `Isaac Sim` · `ROS 2` · `SLAM Toolbox`
-
-#### [Pick_and_Place](https://github.com/anirudhha-vm/Pick_and_Place) — Franka Emika Panda Simulation
-Simulated a 7-DOF Franka Emika Panda executing a nine-step pick-and-place cycle, bridging ROS 2 topics to the Isaac Sim articulation controller via OmniGraph.
-`Python` · `ROS 2` · `Isaac Sim` · `OmniGraph`
-
-#### [SoilClassification_ImageProcessing](https://github.com/anirudhha-vm/SoilClassification_ImageProcessing) — Computer Vision
-Image processing pipeline for soil type classification using computer vision techniques.
-`Python` · `OpenCV` · `Image Processing`
-
-#### [Brahmaguptha](https://github.com/anirudhha-vm/Brahmaguptha) — Brahmagupta Club Platform
-Digital platform for the Brahmagupta mathematics club built with Next.js and Supabase.
-`TypeScript` · `Next.js` · `Supabase`
+- 🔧 interning at **bosch rexroth centre** — plc-based industrial automation, pneumatic/electromechanical control systems
+- 🐕 building toward **quadruped locomotion** with unitree go2 + isaac lab + rl
+- 📄 preparing work for **ASME international conference**
 
 ---
 
-### Skills
+#### 🎤 outside the lab
 
-**Programming** — Python, C++, Bash  
-**Robotics** — ROS / ROS 2, Robot Control, Manipulation, Navigation, Quadruped Robotics  
-**AI / ML** — Reinforcement Learning, Computer Vision, Deep Learning, Robot Learning  
-**Simulation** — NVIDIA Isaac Sim, NVIDIA Isaac Lab, Gazebo, Physics-based Sim-to-Real  
-**Development** — Git, Linux/Ubuntu, System Debugging, Development Environments
+i lead **cultura** — our college's cultural team. auditions, team selection, event planning, stage management, the whole show. turns out coordinating 30 performers for a stage act and debugging a ros 2 tf tree require surprisingly similar patience.
 
 ---
 
-### Beyond Engineering
-
-I lead and coordinate **Cultura**, a student cultural team — managing auditions, team selection, event planning, stage coordination, and performances. This has shaped how I approach **team leadership, communication, and project ownership** outside of technical work.
-
----
-
-### Contact
-
-[LinkedIn](https://www.linkedin.com/in/anirudhha-vm-921886361/) · [Email](mailto:anirudhhavm6@gmail.com)
+<sub>📬 [anirudhhavm6@gmail.com](mailto:anirudhhavm6@gmail.com) · [linkedin](https://www.linkedin.com/in/anirudhha-vm-921886361/)</sub>
